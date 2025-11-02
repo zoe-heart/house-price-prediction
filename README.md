@@ -1,7 +1,7 @@
-# House Price Prediction (Linear Regression)
+# NY House Price Prediction (Linear Regression)
 
 ## Overview
-This project predicts house prices using a linear regression model trained on cleaned and transformed property data.  
+This project predicts NY house prices using a linear regression model trained on cleaned and transformed property data.  
 It demonstrates end-to-end preprocessing - handling missing values, log transformations, winsorisation, categorical encoding, and data leakage prevention.
 
 ## Process Summary
