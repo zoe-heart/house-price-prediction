@@ -6,7 +6,8 @@ It demonstrates end-to-end preprocessing - handling missing values, log transfor
 
 ## Process Summary
 - Explored and profiled the dataset to identify missing values and outliers. 
-- Cleaned inconsistent entries (addresses, placeholder square footage values).
+- Cleaned inconsistent entries.
+- Used the Google Maps API to retrieve accurate location data (administrative area, sublocality) from property coordinates, replacing incomplete or inconsistent location fields. 
 - Split the data into training and test sets before any learned transformations.  
 - Applied log transformations and winsorisation to normalise skewed variables.  
 - Grouped rare categorical values and used target encoding on key features. 
@@ -21,7 +22,8 @@ It demonstrates end-to-end preprocessing - handling missing values, log transfor
 - Property square footage, number of bathrooms, and location exert the strongest influence on house price, while the number of bedrooms and property type have a noticeably weaker effect.
 
 ## Key Learnings
-- Always perform data train/test splits before transformations that compute dataset statistics to avoid leakage.
+- Gained practical experience implementing Linear Regression and integrating the Google Maps API.
+- Always perform data train/test splits *before* transformations that compute dataset statistics to avoid leakage.
 - Log transformations stabilise variance and improve model fit.
 
 ## Requirements
